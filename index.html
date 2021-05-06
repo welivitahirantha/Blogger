@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Project</title>
+    <link rel="stylesheet" href="css/glider.min.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans&family=Livvic:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="#" data-aos="fade-down-right">Blogger</a>
+        <svg class="icon icon--black nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="nav__list collapsible__content" data-aos="fade-down-left">
+          <li class="nav__item"><a href="">home</a></li>
+          <li class="nav__item"><a href="">category</a></li>
+          <li class="nav__item"><a href="">archive</a></li>
+          <li class="nav__item"><a href="">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-block">
+        <div class="hero-block__background" data-aos="fade-up">
+          <h3>Tours & Travels</h3>
+          <h1>Amazing place on earth</h1>
+          <button class="btn">Explore</button>
+        </div>
+      </section>
+      <!-- glider-block -->
+      <section class="glider-block">
+        <div class="container glider-contain multiple" data-aos="fade-right">
+          <div class="glider">
+            <figure>
+              <img src="images/Blog-post/post-1.png" alt="" />
+              <blockquote>
+                <h3 class="glider-blog__title">
+                  London fashion week continued
+                </h3>
+              </blockquote>
+              <button class="btn btn__glider">Read</button>
+              <figcaption>2 minutes</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Blog-post/post-2.png" alt="" />
+              <blockquote>
+                <h3 class="glider-blog__title">India covid latest situation</h3>
+              </blockquote>
+              <button class="btn btn__glider">Read</button>
+              <figcaption>1 day</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Blog-post/post-3.png" alt="" />
+              <blockquote>
+                <h3 class="glider-blog__title">
+                  Bill and Melinda Gates divorce after 27 years of marriage
+                </h3>
+              </blockquote>
+              <button class="btn btn__glider">Read</button>
+              <figcaption>20 minutes</figcaption>
+            </figure>
+          </div>
+          <button class="glider-prev">
+            <i class="fa fa-arrow-circle-left"></i>
+          </button>
+          <button class="glider-next">
+            <i class="fa fa-arrow-circle-right"></i>
+          </button>
+          <div id="dots"></div>
+        </div>
+      </section>
+      <!-- content-block -->
+      <section class="container content-block">
+        <div class="grid grid--1x2">
+          <div class="posts">
+            <div class="posts__content" data-aos="flip-left">
+              <div class="posts__image">
+                <div>
+                  <img class="img" src="images/Blog-post/blog1.png" alt="" />
+                </div>
+                <div class="posts__info">
+                  <span><i class="fa fa-user"></i>&nbsp;&nbsp;Admin</span>
+                  <span
+                    ><i class="fa fa-calendar"></i>&nbsp;&nbsp;May 4, 2021</span
+                  >
+                  <span>2 comments</span>
+                </div>
+              </div>
+              <div class="posts__title" data-aos="fade-up">
+                <a href="#"
+                  >Flights delayed at Adelaide Airport after system failure
+                  causes security breach and evacuation</a
+                >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Perspiciatis animi id, esse error aliquam quae sed suscipit
+                  quam obcaecati nesciunt.
+                </p>
+                <div class="btn btn--posts">
+                  Read More&nbsp;<i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="posts__content" data-aos="flip-left">
+              <div class="posts__image">
+                <div>
+                  <img class="img" src="images/Blog-post/blog2.png" alt="" />
+                </div>
+                <div class="posts__info">
+                  <span><i class="fa fa-user"></i>&nbsp;&nbsp;Admin</span>
+                  <span
+                    ><i class="fa fa-calendar"></i>&nbsp;&nbsp;May 4, 2021</span
+                  >
+                  <span>2 comments</span>
+                </div>
+              </div>
+              <div class="posts__title" data-aos="fade-up">
+                <a href="#">Meet the talking dog "scooby"</a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Perspiciatis animi id, esse error aliquam quae sed suscipit
+                  quam obcaecati nesciunt.
+                </p>
+                <div class="btn btn--posts">
+                  Read More&nbsp;<i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="posts__content" data-aos="flip-left">
+              <div class="posts__image">
+                <div>
+                  <img class="img" src="images/Blog-post/blog3.png" alt="" />
+                </div>
+                <div class="posts__info">
+                  <span><i class="fa fa-user"></i>&nbsp;&nbsp;Admin</span>
+                  <span
+                    ><i class="fa fa-calendar"></i>&nbsp;&nbsp;May 4, 2021</span
+                  >
+                  <span>2 comments</span>
+                </div>
+              </div>
+              <div class="posts__title" data-aos="fade-up">
+                <a href="#">Travel Sri Lanka during pandamic</a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Perspiciatis animi id, esse error aliquam quae sed suscipit
+                  quam obcaecati nesciunt.
+                </p>
+                <div class="btn btn--posts">
+                  Read More&nbsp;<i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="sidebar__category" data-aos="fade-left">
+              <h1>Category</h1>
+              <ul class="sidebar__category-list">
+                <li class="list__items">
+                  <a href="">Software</a>
+                  <span>(02)</span>
+                </li>
+                <li class="list__items">
+                  <a href="">Technology</a>
+                  <span>(02)</span>
+                </li>
+                <li class="list__items">
+                  <a href="">Life Style</a>
+                  <span>(02)</span>
+                </li>
+                <li class="list__items">
+                  <a href="">Shopping</a>
+                  <span>(02)</span>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar__popular-post">
+              <h1>Popular Post</h1>
+              <div class="posts__content" data-aos="fade-left">
+                <div class="posts__image">
+                  <div>
+                    <img class="img" src="images/Blog-post/post-9.jpg" alt="" />
+                  </div>
+                  <div class="posts__info">
+                    <span><i class="fa fa-user"></i>&nbsp;&nbsp;Admin</span>
+                    <span
+                      ><i class="fa fa-calendar"></i>&nbsp;&nbsp;May 4,
+                      2021</span
+                    >
+                    <span>2&nbsp;comments</span>
+                  </div>
+                </div>
+                <div class="posts__title">
+                  <a href="#"
+                    >Indian fishermen want permits for BOTTOM TRAWLERS to enter
+                    SL waters</a
+                  >
+                </div>
+              </div>
+              <div class="posts__content" data-aos="fade-left">
+                <div class="posts__image">
+                  <div>
+                    <img class="img" src="images/Blog-post/post-6.png" alt="" />
+                  </div>
+                  <div class="posts__info">
+                    <span><i class="fa fa-user"></i>&nbsp;&nbsp;Admin</span>
+                    <span
+                      ><i class="fa fa-calendar"></i>&nbsp;&nbsp;May 4,
+                      2021</span
+                    >
+                    <span>2&nbsp;comments</span>
+                  </div>
+                </div>
+                <div class="posts__title">
+                  <a href="#">President Gotabaya Rajapaksa visits Parliament</a>
+                </div>
+              </div>
+              <div class="posts__content" data-aos="fade-left">
+                <div class="posts__image">
+                  <div>
+                    <img class="img" src="images/Blog-post/post-5.png" alt="" />
+                  </div>
+                  <div class="posts__info">
+                    <span><i class="fa fa-user"></i>&nbsp;&nbsp;Admin</span>
+                    <span
+                      ><i class="fa fa-calendar"></i>&nbsp;&nbsp;May 4,
+                      2021</span
+                    >
+                    <span>2&nbsp;comments</span>
+                  </div>
+                </div>
+                <div class="posts__title">
+                  <a href="#">Why we need vaccine to prevent covid?</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container grid--1x4">
+        <div class="aboutus">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            ratione!
+          </p>
+        </div>
+        <div class="newsletter">
+          <h2>Newsletter</h2>
+        </div>
+        <div class="instagram">
+          <h2>Instagram</h2>
+        </div>
+        <div class="follow">
+          <h2>Follow</h2>
+        </div>
+      </div>
+      <div class="rights nav">
+        <p>Created By Hirantha Welivita</p>
+      </div>
+    </footer>
+
+    <script src="js/glider.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      new Glider(document.querySelector(".glider"), {
+        // Mobile-first defaults
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        scrollLock: true,
+        dots: "#dots",
+        arrows: {
+          prev: ".glider-prev",
+          next: ".glider-next",
+        },
+        responsive: [
+          {
+            // screens greater than >= 775px
+            breakpoint: 768,
+            settings: {
+              // Set to `auto` and provide item width to adjust to viewport
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              itemWidth: 150,
+              duration: 0.25,
+            },
+          },
+          {
+            // screens greater than >= 1024px
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              itemWidth: 150,
+              duration: 0.25,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
